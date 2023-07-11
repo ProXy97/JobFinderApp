@@ -1,0 +1,12 @@
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\bin\Debug\net6.0\JobFinderApp.Common.deps.json
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\bin\Debug\net6.0\JobFinderApp.Common.dll
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\bin\Debug\net6.0\JobFinderApp.Common.pdb
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.csproj.AssemblyReference.cache
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.AssemblyInfoInputs.cache
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.AssemblyInfo.cs
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.dll
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\refint\JobFinderApp.Common.dll
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\JobFinderApp.Common.pdb
+C:\Users\aleks\source\repos\JobFinderApp\JobFinderApp.Common\obj\Debug\net6.0\ref\JobFinderApp.Common.dll
