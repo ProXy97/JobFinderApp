@@ -2227,11 +2227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj",
       "projectName": "JobFinderApp.Data",
-      "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2248,8 +2248,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj"
+            "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj"
             }
           }
         }

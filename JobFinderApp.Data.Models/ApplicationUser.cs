@@ -29,9 +29,9 @@ namespace JobFinderApp.Data.Models
         public string? Phone { get; set; }
 
         [ForeignKey(nameof(Resumee))]
-        public int ResumeeId { get; set; }
+        public int? ResumeeId { get; set; }
 
-        public Resumee Resumee { get; set; }
+        public Resumee? Resumee { get; set; }
 
         public ICollection<Skill> Skills { get; set; }
 

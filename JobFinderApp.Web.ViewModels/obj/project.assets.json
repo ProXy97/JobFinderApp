@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
       "projectName": "JobFinderApp.Web.ViewModels",
-      "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web.ViewModels\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",

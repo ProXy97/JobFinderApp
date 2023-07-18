@@ -11266,11 +11266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web\\JobFinderApp.Web.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web\\JobFinderApp.Web.csproj",
       "projectName": "JobFinderApp.Web",
-      "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web\\JobFinderApp.Web.csproj",
+      "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web\\JobFinderApp.Web.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web\\obj\\",
+      "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11287,14 +11287,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj": {
-              "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj"
+            "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj": {
+              "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj"
             },
-            "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj": {
-              "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj"
+            "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj": {
+              "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data\\JobFinderApp.Data.csproj"
             },
-            "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj"
+            "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj"
             }
           }
         }

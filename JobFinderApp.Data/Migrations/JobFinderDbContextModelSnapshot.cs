@@ -83,7 +83,7 @@ namespace JobFinderApp.Data.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<int>("ResumeeId")
+                    b.Property<int?>("ResumeeId")
                         .HasColumnType("int");
 
                     b.Property<string>("SecurityStamp")
@@ -228,7 +228,7 @@ namespace JobFinderApp.Data.Migrations
                             Id = 1,
                             CategoryId = 1,
                             Company = "SoftUni",
-                            DatePosted = new DateTime(2023, 7, 11, 14, 40, 37, 238, DateTimeKind.Utc).AddTicks(8279),
+                            DatePosted = new DateTime(2023, 7, 18, 11, 47, 25, 645, DateTimeKind.Utc).AddTicks(7642),
                             Description = "We are looking for a Junior Software Developer to join our team! As a Junior Software Developer, you will be responsible for the development of new software products and enhancements to existing products. You should excel in working with large-scale applications and frameworks and have outstanding communication and leadership skills.",
                             Location = "Sofia",
                             Salary = 2000.0,
@@ -239,7 +239,7 @@ namespace JobFinderApp.Data.Migrations
                             Id = 2,
                             CategoryId = 5,
                             Company = "S&A Produce",
-                            DatePosted = new DateTime(2023, 7, 11, 14, 40, 37, 238, DateTimeKind.Utc).AddTicks(8286),
+                            DatePosted = new DateTime(2023, 7, 18, 11, 47, 25, 645, DateTimeKind.Utc).AddTicks(7651),
                             Description = "We are looking for a Senior Sales Representative to join our team! As a Senior Sales Representative, you will be responsible for the development of new sales and enhancements to existing sales. You should excel in working with large-scale sales and frameworks and have outstanding communication and leadership skills.",
                             Location = "Plovdiv",
                             Title = "Senior Sales Representative"
@@ -249,7 +249,7 @@ namespace JobFinderApp.Data.Migrations
                             Id = 3,
                             CategoryId = 4,
                             Company = "S&A Produce",
-                            DatePosted = new DateTime(2023, 7, 11, 14, 40, 37, 238, DateTimeKind.Utc).AddTicks(8287),
+                            DatePosted = new DateTime(2023, 7, 18, 11, 47, 25, 645, DateTimeKind.Utc).AddTicks(7652),
                             Description = "We are looking for a Production Supervisor to join our team! As a Production Supervisor, you will be responsible for the development of new products and enhancements to existing products. You should excel in working with large-scale applications and frameworks and have outstanding communication and leadership skills.",
                             Location = "Bourgas",
                             Salary = 2500.0,
@@ -260,7 +260,7 @@ namespace JobFinderApp.Data.Migrations
                             Id = 4,
                             CategoryId = 6,
                             Company = "Avara Foods",
-                            DatePosted = new DateTime(2023, 7, 11, 14, 40, 37, 238, DateTimeKind.Utc).AddTicks(8288),
+                            DatePosted = new DateTime(2023, 7, 18, 11, 47, 25, 645, DateTimeKind.Utc).AddTicks(7653),
                             Description = "We are looking for a ProSeal Engineer to join our team! As a ProSeal Engineer, you will be responsible for the development of new products and enhancements to existing products. You should excel in working with large-scale applications and frameworks and have outstanding communication and leadership skills.",
                             Location = "Veliko Tarnovo",
                             Salary = 1800.0,
@@ -271,7 +271,7 @@ namespace JobFinderApp.Data.Migrations
                             Id = 5,
                             CategoryId = 2,
                             Company = "Tesco Supermarket",
-                            DatePosted = new DateTime(2023, 7, 11, 14, 40, 37, 238, DateTimeKind.Utc).AddTicks(8289),
+                            DatePosted = new DateTime(2023, 7, 18, 11, 47, 25, 645, DateTimeKind.Utc).AddTicks(7655),
                             Description = "We are looking for a Senior Accountant to join our team! As a Senior Accountant, you will be responsible for the development of new products and enhancements to existing products. You should excel in working with large-scale applications and frameworks and have outstanding communication and leadership skills.",
                             Location = "Canterbury, UK",
                             Salary = 3000.0,
@@ -767,8 +767,7 @@ namespace JobFinderApp.Data.Migrations
 
             modelBuilder.Entity("JobFinderApp.Data.Models.ApplicationUser", b =>
                 {
-                    b.Navigation("Resumee")
-                        .IsRequired();
+                    b.Navigation("Resumee");
 
                     b.Navigation("Skills");
                 });

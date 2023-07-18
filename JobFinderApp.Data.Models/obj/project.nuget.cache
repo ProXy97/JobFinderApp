@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "59SzNIGTPyTNqqLcsghplZ1gd60lSc/btmEzw91CH5GuSuyLHbrAmZ/acuyfXA9ejGuRpsnnC65KWXVj7g62iw==",
+  "dgSpecHash": "OVU6pqDzDfsuvKKJhesD5glaITTKYH8QEPtKTKiqUW0tVImTpfbTqPFbNNppVQ21/RD+ZupSNkSjn4SIP/1TUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\source\\repos\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj",
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Data.Models\\JobFinderApp.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",
