@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\JobFinderApp.Common\JobFinderApp.Common.csproj" />
     <ProjectReference Include="..\JobFinderApp.Data\JobFinderApp.Data.csproj" />
+    <ProjectReference Include="..\JobFinderApp.Services.Data\JobFinderApp.Services.Data.csproj" />
     <ProjectReference Include="..\JobFinderApp.Web.ViewModels\JobFinderApp.Web.ViewModels.csproj" />
   </ItemGroup>
 

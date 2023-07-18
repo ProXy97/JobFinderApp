@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "JobFinderApp.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "JobFinderApp.Common": "1.0.0"
+        },
         "runtime": {
           "JobFinderApp.Web.ViewModels.dll": {}
+        }
+      },
+      "JobFinderApp.Common/1.0.0": {
+        "runtime": {
+          "JobFinderApp.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "JobFinderApp.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobFinderApp.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

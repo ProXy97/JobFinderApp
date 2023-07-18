@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\JobFinderApp.Data.Models\JobFinderApp.Data.Models.csproj" />
+    <ProjectReference Include="..\JobFinderApp.Data\JobFinderApp.Data.csproj" />
+    <ProjectReference Include="..\JobFinderApp.Web.ViewModels\JobFinderApp.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,6 +10,7 @@
         "dependencies": {
           "JobFinderApp.Common": "1.0.0",
           "JobFinderApp.Data": "1.0.0",
+          "JobFinderApp.Services.Data": "1.0.0",
           "JobFinderApp.Web.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.15",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.18",
@@ -2599,7 +2600,20 @@
           "JobFinderApp.Data.Models.dll": {}
         }
       },
+      "JobFinderApp.Services.Data/1.0.0": {
+        "dependencies": {
+          "JobFinderApp.Data": "1.0.0",
+          "JobFinderApp.Data.Models": "1.0.0",
+          "JobFinderApp.Web.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "JobFinderApp.Services.Data.dll": {}
+        }
+      },
       "JobFinderApp.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "JobFinderApp.Common": "1.0.0"
+        },
         "runtime": {
           "JobFinderApp.Web.ViewModels.dll": {}
         }
@@ -4191,6 +4205,11 @@
       "sha512": ""
     },
     "JobFinderApp.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobFinderApp.Services.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

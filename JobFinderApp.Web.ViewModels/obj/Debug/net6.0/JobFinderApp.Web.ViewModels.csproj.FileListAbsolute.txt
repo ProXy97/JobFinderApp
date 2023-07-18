@@ -22,3 +22,6 @@ C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModel
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\obj\Debug\net6.0\refint\JobFinderApp.Web.ViewModels.dll
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\obj\Debug\net6.0\JobFinderApp.Web.ViewModels.pdb
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\obj\Debug\net6.0\ref\JobFinderApp.Web.ViewModels.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\bin\Debug\net6.0\JobFinderApp.Common.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\bin\Debug\net6.0\JobFinderApp.Common.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web.ViewModels\obj\Debug\net6.0\JobFinderApp.Web.ViewModels.csproj.CopyComplete

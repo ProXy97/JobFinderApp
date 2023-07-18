@@ -530,3 +530,5 @@ C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\obj\Debug
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\obj\Debug\net6.0\JobFinderApp.Web.pdb
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\obj\Debug\net6.0\JobFinderApp.Web.genruntimeconfig.cache
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\obj\Debug\net6.0\ref\JobFinderApp.Web.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\bin\Debug\net6.0\JobFinderApp.Services.Data.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Web\bin\Debug\net6.0\JobFinderApp.Services.Data.pdb

@@ -22,3 +22,12 @@ C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\obj\Debug\net6.0\refint\JobFinderApp.Services.Data.dll
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\obj\Debug\net6.0\JobFinderApp.Services.Data.pdb
 C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\obj\Debug\net6.0\ref\JobFinderApp.Services.Data.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Common.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Data.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Data.Models.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Web.ViewModels.dll
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Data.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Web.ViewModels.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Common.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\bin\Debug\net6.0\JobFinderApp.Data.Models.pdb
+C:\Users\aleks\OneDrive\Documents\GitHub\JobFinderApp\JobFinderApp.Services.Data\obj\Debug\net6.0\JobFinderApp.Services.Data.csproj.CopyComplete

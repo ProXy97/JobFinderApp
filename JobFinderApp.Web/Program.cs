@@ -1,4 +1,6 @@
 using JobFinderApp.Data.Models;
+using JobFinderApp.Services.Data;
+using JobFinderApp.Services.Data.Interfaces;
 using JobFinderApp.Web.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,6 +22,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 )
     .AddEntityFrameworkStores<JobFinderDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IJobService, JobService>();
 
 var app = builder.Build();
 

@@ -4,14 +4,14 @@
     "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj": {
+    "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
-        "projectName": "JobFinderApp.Web.ViewModels",
-        "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj",
+        "projectName": "JobFinderApp.Common",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj",
         "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
+        "projectName": "JobFinderApp.Web.ViewModels",
+        "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\JobFinderApp.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj": {
+                "projectPath": "C:\\Users\\aleks\\OneDrive\\Documents\\GitHub\\JobFinderApp\\JobFinderApp.Common\\JobFinderApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
