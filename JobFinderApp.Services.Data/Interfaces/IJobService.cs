@@ -13,5 +13,9 @@ namespace JobFinderApp.Services.Data.Interfaces
         Task<JobViewModel?> GetJobByIdForEdit(int id);
 
         Task EditJobAsync(JobViewModel model, string userId);
+
+        Task DeleteJobByIdAsync(int id);
+
+        Task<JobDescriptionViewModel> JobDetailsAsync(int id);
     }
 }

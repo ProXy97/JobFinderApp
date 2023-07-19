@@ -37,6 +37,8 @@ namespace JobFinderApp.Data.Models
 
         public Category Category { get; set; }
 
+        public bool IsActive { get; set; }
+
         public DateTime DatePosted { get; set; }
 
         public ICollection<JobCategory> JobsCategories { get; set; }

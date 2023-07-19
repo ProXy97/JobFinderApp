@@ -26,6 +26,7 @@ namespace JobFinderApp.Services.Data
                     Description = model.Description,
                     Company = model.Company,
                     Location = model.Location,
+                    IsActive = true,
                     Salary = model.Salary,
                     CategoryId = model.CategoryId,
                 };
@@ -36,6 +37,17 @@ namespace JobFinderApp.Services.Data
             {
 
             }
+        }
+
+        public async Task DeleteJobByIdAsync(int id)
+        {
+            Job jobToDelete = await dbContext.Jobs
+                .Where(j => j.IsActive)
+                .FirstAsync(j => j.Id == id);
+
+            jobToDelete.IsActive = false;
+
+            await dbContext.SaveChangesAsync();
         }
 
         public async Task EditJobAsync(JobViewModel model, string userId)
@@ -59,6 +71,7 @@ namespace JobFinderApp.Services.Data
         public async Task<IEnumerable<AllJobsViewModel>> GetAllJobsAsync()
         {
             return await dbContext.Jobs
+                .Where(j => j.IsActive == true)
                 .Select(j => new AllJobsViewModel
                 {
                     Id = j.Id,
@@ -80,7 +93,7 @@ namespace JobFinderApp.Services.Data
                 }).ToListAsync();
                 
             return await dbContext.Jobs
-                .Where(j => j.Id == id)
+                .Where(j => j.IsActive && j.Id == id)
                 .Select(j => new JobViewModel
                 {
                     Title = j.Title,
@@ -108,6 +121,24 @@ namespace JobFinderApp.Services.Data
                 Categories = categories
             };
             return model;
+        }
+
+        public async Task<JobDescriptionViewModel?> JobDetailsAsync(int id)
+        {
+            return await dbContext.Jobs
+                .Where(j => j.Id == id)
+                .Select(j => new JobDescriptionViewModel
+                {
+                    Id = j.Id,
+                    Title = j.Title,
+                    Description = j.Description,
+                    Company = j.Company,
+                    Location = j.Location,
+                    Salary = j.Salary,
+                    Category = j.Category.Name,
+                    DatePosted = j.DatePosted,
+                })
+                .FirstOrDefaultAsync();
         }
     }
 }

@@ -11,6 +11,7 @@ namespace JobFinderApp.Web.Controllers
     {
         private readonly IJobService jobService;
 
+
         public JobController(IJobService jobService)
         {
             this.jobService = jobService;
@@ -62,6 +63,18 @@ namespace JobFinderApp.Web.Controllers
             await jobService.EditJobAsync(model, id);
 
             return RedirectToAction(nameof(All));
+        }
+
+        [AllowAnonymous]
+        public async Task<IActionResult> Details(int id)
+        {
+            var model = await jobService.JobDetailsAsync(id);
+
+            if (model == null)
+            {
+                return RedirectToAction(nameof(All));
+            }
+            return View(model);
         }
 
         protected string GetUserId()
